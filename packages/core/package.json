@@ -17,6 +17,7 @@
     "lib"
   ],
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.yarnpkg.com/"
   },
   "scripts": {
@@ -25,5 +26,5 @@
   "dependencies": {
     "@donaf-cli-dev/utils": "^1.0.2"
   },
-  "gitHead": "38f7262c07e8ad330585a75d144667c8f9e968f9"
+  "gitHead": "c0fca901d9109b61f57c80f41bcfac2ab80158f3"
 }
