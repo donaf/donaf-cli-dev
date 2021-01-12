@@ -1,6 +1,6 @@
 {
   "name": "@donaf-cli-dev/core",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "donaf-cli-dev core",
   "author": "apple <2420639180@qq.com>",
   "homepage": "",
@@ -24,7 +24,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@donaf-cli-dev/utils": "^1.0.2"
+    "@donaf-cli-dev/utils": "^1.0.4"
   },
   "gitHead": "c0fca901d9109b61f57c80f41bcfac2ab80158f3"
 }
