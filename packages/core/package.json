@@ -1,6 +1,6 @@
 {
   "name": "@donaf-cli-dev/core",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "donaf-cli-dev core",
   "author": "apple <2420639180@qq.com>",
   "homepage": "",
@@ -24,5 +24,6 @@
   },
   "dependencies": {
     "@donaf-cli-dev/utils": "^1.0.2"
-  }
+  },
+  "gitHead": "38f7262c07e8ad330585a75d144667c8f9e968f9"
 }
