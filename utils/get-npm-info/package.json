@@ -1,0 +1,34 @@
+{
+  "name": "@donaf-cli-dev/get-npm-info",
+  "version": "1.0.4",
+  "description": "donaf-cli-dev get-npm-info",
+  "author": "apple <2420639180@qq.com>",
+  "homepage": "https://github.com/donaf/donaf-cli-dev#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donaf/donaf-cli-dev.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/donaf/donaf-cli-dev/issues"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "semver": "^7.3.4",
+    "url-join": "^4.0.1"
+  }
+}

@@ -5,7 +5,7 @@
   "author": "apple <2420639180@qq.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/core.js",
+  "main": "lib/index.js",
   "bin": {
     "donaf-cli-dev": "bin/index.js"
   },
@@ -24,7 +24,16 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@donaf-cli-dev/utils": "^1.0.4"
+    "@donaf-cli-dev/get-npm-info": "file:../../utils/get-npm-info",
+    "@donaf-cli-dev/log": "file:../../utils/log",
+    "@donaf-cli-dev/init": "file:../../commands/init",
+    "colors": "^1.4.0",
+    "commander": "^6.2.1",
+    "import-local": "^3.0.2",
+    "path-exists": "^4.0.0",
+    "root-check": "^1.0.0",
+    "semver": "^7.3.4",
+    "user-home": "^2.0.0"
   },
   "gitHead": "c0fca901d9109b61f57c80f41bcfac2ab80158f3"
 }
